@@ -15,7 +15,7 @@ const myBooks_ru = [
         price: "$5.00",
         color: "bg-emerald-800",
         tag: "Готово",
-        link: "hidden.html"
+        link: "#"
     },
     {
         title: "Кодекс",
