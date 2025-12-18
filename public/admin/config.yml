@@ -1,1 +1,19 @@
+backend:
+  name: git-gateway
+  branch: main
 
+media_folder: "public/images"
+public_folder: "/images"
+
+collections:
+  - name: "blog"
+    label: "Статьи"
+    folder: "posts" # <-- ВАЖНО: Проверьте, что ваши посты лежат именно в папке posts в корне. Если нет — напишите, где они.
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Заголовок", name: "title", widget: "string"}
+      - {label: "Дата", name: "date", widget: "datetime"}
+      - {label: "Тег", name: "tag", widget: "string"}
+      - {label: "Обложка", name: "image", widget: "image"}
+      - {label: "Текст", name: "body", widget: "markdown"}
