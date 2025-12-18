@@ -4,7 +4,7 @@ const blogPosts_ru = [
         title: "Проклятие Вечности: Почему смерть — это фича",
         tag: "Философия",
         date: "20 Декабря 2025",
-        image: "images/soul-disconnection.jpg",
+        image: "images/soul-dihttps://github.com/ericnorthorg/read/blob/0b21c226a342f1d5ddd03d178ef1ed3a48525147/image/soul-disconnection.jpg.jpg",
         desc: "Мы мечтаем загрузить сознание в облако. Но мы забываем, что без дедлайна любой проект превращается в бесконечный долгострой.",
         content: `
             <p class="first-letter:text-6xl first-letter:font-bold first-letter:text-emerald-900 first-letter:float-left first-letter:mr-3 first-letter:mt-[-10px]">
