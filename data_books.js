@@ -4,7 +4,7 @@ const myBooks_ru = [
         title: "Возвращение Марка",
         tag: "История",
         date: "25 Декабря 2025",
-        image: "/images/image (1).jpg", // Та самая картинка из папки public
+        image: "public/images/image (1).jpg", // Та самая картинка из папки public
         text: `
           Здесь пишите текст вашей истории.
           Можно писать много абзацев.
